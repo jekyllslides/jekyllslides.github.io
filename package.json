@@ -1,0 +1,31 @@
+{
+  "name": "unconventional",
+  "version": "0.0.0",
+  "description": "Unconventional use cases for Jekyll",
+  "author": "katydecorah",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "scsslint": "0.0.3"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.13.1",
+    "request": "^2.67.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.4.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katydecorah/unconventional.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katydecorah/unconventional/issues"
+  },
+  "homepage": "https://github.com/katydecorah/unconventional#readme"
+}
